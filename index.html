@@ -137,8 +137,25 @@
           eveniet laboriosam asperiores vel quae illum! Debitis.
         </p>
       </aside>
-    </main>
-    <footer>
+      </main>
+      <form action="contacto" method="post">
+        <fieldset>
+          <legend>Formulario de contacto</legend>
+          <label for="nombre">Nombre y apellidos:</label>
+          <input type="text" id="nombre" />
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" />
+          <label for="asunto">Asunto</label>
+          <input type="text" id="asunto"/>
+        </fieldset>
+        <fieldset>
+          <legend>Mensaje</legend>
+          <label for="mensaje"></label>
+          <textarea id="mensaje" cols="60" placeholder="Escribe aquí tu mensaje" required></textarea>
+        </fieldset>
+        <input type="submit" value="Enviar">
+      </form>
+     <footer>
       <div class="footerlinks">
         <ul>
           <li><a href="#">Información de contacto</a>
